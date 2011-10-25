@@ -5,7 +5,7 @@
     <description xml:lang="es">Notación para MDP y IS2</description>
     <contents>
         <object name="DFD Yourdon - Data Store">
-            <description>A data store</description>
+            <description>Data Store</description>
         </object>
         <object name="Flowchart - Box">
             <description>Process/Auxiliary Operation</description>
@@ -14,7 +14,7 @@
             <description>Connector</description>
         </object>
         <object name="DFD Yourdon - Bubble">
-            <description>A bubble</description>
+            <description>Bubble</description>
         </object>
     </contents>
 </sheet>
