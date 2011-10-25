@@ -1,21 +1,39 @@
-Yourdon-DFD-Dia-Shapes
+DFD-Yourdon-Dia-Shapes
 ======================
 
 These are just a few shapes to use with Dia for creating Data Flow Diagrams. They
 pretend to be as close as possible to Yourdon's notation [citation needed].
 
+<castilian>Puede ser útil en asignaturas de la Facultad de Informática de la UPM,
+como MDP o IS2.</castilian>
+
 License
 -------
-Everyone can redistribute it, modify it, sell it, eat it, punch it, ... Mostly
-the same as lecture notes.
+Everyone can redistribute it, modify it, sell it, eat it, punch it, ...;
+copyright attribution is not neccesary indeed. Mostly the same as lecture notes.
+
+Requirements
+------------
+You should have a working installation of Dia, Bash and Curl. Bash and Curl are
+installed by default in Mac OS X.
 
 Installation
 ------------
-A custom sheet is on the road.
+Download the bash script 'make-install.sh' and execute it. That will download and
+install a new sheet called 'DFD Yourdon' which contains all the shapes needed to
+draw a DFD diagram. You should have run Dia before trying to install these shapes.
 
-Uninstall
----------
-Probably deleting ~/.dia/shapes/ will make the deal.
+You can try to install the shapes and sheet manually; see section 'Uninstall' for
+the destination of them.
+
+Uninstalling
+------------
+Delete the following files:
+- ~/.dia/shapes/bubble.{png, shape}
+- ~/.dia/shapes/data-store.{png, shape}
+- ~/.dia/sheets/dfd-yourdon.sheet
+
+Your previous data will be preserved and nothing else will be affected.
 
 Discussion
 ----------
