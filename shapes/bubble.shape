@@ -4,14 +4,29 @@
     <name>DFD Yourdon - Bubble</name>
     <icon>bubble.png</icon>
     <connections>
-        <point x="8" y="5.85336"/>
-        <point x="8" y="4.14664"/>
-        <point x="6.29327" y="5"/>
-        <point x="9.70673" y="5"/>
+        <point x="0.0" y="-2.0"/>
+        <point x="0.0" y="2.0"/>
+        <point x="-2.0" y="0.0"/>
+        <point x="2.0" y="0.0"/>
+
+        <point x="1.4142" y="1.4142"/>
+        <point x="-1.4142" y="1.4142"/>
+        <point x="-1.4142" y="-1.4142"/>
+        <point x="1.4142" y="-1.4142"/>
+
+        <point x="0.866" y="0.5"/>
+        <point x="-0.866" y="0.5"/>
+        <point x="-0.866" y="-0.5"/>
+        <point x="0.866" y="-0.5"/>
+
+        <point x="0.5" y="0.866"/>
+        <point x="-0.5" y="0.866"/>
+        <point x="-0.5" y="-0.866"/>
+        <point x="0.5" y="-0.866"/>
     </connections>
     <aspectratio type="fixed"/>
+    <textbox x1="-1.1" y1="1.0" x2="1.1" y2="-1.0" />
     <svg:svg>
-        <svg:ellipse style="fill: #ffffff" cx="8" cy="5" rx="1.70673" ry="0.853364"/>
-        <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="8" cy="5" rx="1.70673" ry="0.853364"/>
+        <svg:circle style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="0.0" cy="0.0" r="2.0"/>
     </svg:svg>
 </shape>

@@ -13,5 +13,8 @@
         <object name="Flowchart - Ellipse">
             <description>Connector</description>
         </object>
+        <object name="DFD Yourdon - Bubble">
+            <description>A bubble</description>
+        </object>
     </contents>
 </sheet>
