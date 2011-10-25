@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <name>DFD Yourdon</name>
+  <description>Yourdon's notation</description>
+  <description xml:lang="es">Notación para MDP y IS2</description>
+  <contents>
+    <object name="DFD Yourdon - Data Store">
+     <description>A data store</description>
+    </object>
+   </contents>
+</sheet>
